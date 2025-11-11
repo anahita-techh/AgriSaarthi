@@ -1,8 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import farmData from "./farm-info.js"; // import the file you just created
-
+import farmData from "./farm-info.js"; 
 dotenv.config();
 
 const app = express();
